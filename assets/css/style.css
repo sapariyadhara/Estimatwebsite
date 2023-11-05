@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 1440px; 
+    width: 1440px;
     height: 999px;
     margin: 0 118px;
     padding-top: 54px;
@@ -130,10 +130,12 @@ header {
     font-size: 16px;
     border: 1px solid #fff;
 }
-.estimate-data span{
+
+.estimate-data span {
     font-size: 16px;
     font-weight: 400;
 }
+
 .estimate-data button a {
     display: inline-block;
     width: 28px;
@@ -142,23 +144,140 @@ header {
     border-radius: 50%;
     margin-left: 15px;
 }
+
 .estimate-data button a i {
     /* width: 7px;
     height: 7.5px; */
     font-size: 12px;
     color: #fff;
-   padding: 5px;
-   
+    padding: 5px;
+
 }
 
 /***************** dashboad-sec ******************/
-.dashbord{
+.dashbord {
+    display: flex;
     position: absolute;
     top: 700px;
     left: 50%;
     transform: translate(-50%);
     width: 1076px;
     height: 797px;
-    border-radius: 15px;
     border: 11px solid #FFFFFF7D;
+    border-radius: 15px;
+    box-shadow: 4.483333110809326px 0px 13.44999885559082px 0px rgba(0, 0, 0, 0.06);
+}
+
+.dashbord .dBox1 {
+    width: 203px;
+    border-radius: 15px 0 0 15px;
+    background-color: #017edf;
+}
+
+.dashbord .dBox2 {
+    width: 860px;
+    background-color: #fff;
+    /* padding: 12px;   */
+    border-radius: 0 6px 15px 0;
+}
+
+.dashbord .dBox2 ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dashbord .dBox2 .home-nav {
+    box-shadow: 0px 1.4944443702697754px 8.966666221618652px 0px rgba(0, 0, 0, 0.06);
+}
+
+.dashbord .dBox2 ul {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    border: 0px, 0px, 0.75px, 0px;
+
+}
+
+.dashbord .dBox2 ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #192A3E;
+    text-decoration: none;
+
+}
+
+.dashbord .dBox2 ul li a i {
+    color: #90A0B7;
+}
+
+.dashbord .dBox2 .s-icon {
+    width: 17.5px;
+    height: 17.5px;
+    margin-right: 10px;
+}
+
+.dashbord .dBox2 .user-icon {
+    display: inline-block;
+    padding: 8px 8px 2px 8px;
+
+    background-color: #90A0B7;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.dashbord .dBox2 ul li span {
+    position: absolute;
+    font-size: 7.5px;
+    font-weight: 500;
+    color: #FE9B6A;
+    top: -7px;
+    left: 0;
+}
+
+.dashbord .dBox2 .wlc {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.dashbord .dBox2 .d-arrow {
+    color: #192A3E;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.dashbord .dBox2 .graph {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.dashbord .dBox2 .Overview{
+    display: flex;
+    justify-content: space-between;
+}
+.dashbord .dBox2 .Overview .ov{
+    display: flex;
+    justify-content: space-between;
+    width: 272.98px;
+    height: 71.73px;
+    padding: 11px 17px;
+    border-radius: 5.23px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8.966666221618652px 0px rgba(52, 84, 207, 0.08);
+}
+.dashbord .dBox2 .Overview .ov p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.dashbord .dBox2 .Overview .ov h2{
+    font-size: 18px;
+    font-weight: 700;   
+}
+.dashbord .dBox2 .Overview .ov img{
+    width: 36px;
+    height: 36px;
+    margin: 10px 0
 }
