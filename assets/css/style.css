@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     font-family: 'Poppins';
 }
 
@@ -159,6 +159,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 222px;
+    mix-blend-mode: luminosity;
 }
 
 .logo-img1 img {
@@ -263,10 +264,14 @@ header {
     border-radius: 100px;
     border: 1px solid #718096;
     color: #718096;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     padding: 10px 18px 10px 18px;
     background-color: transparent;
+}
+
+.rovolut .house-img img {
+    margin-left: 81px;
 }
 
 .rovolut h4 {
@@ -356,4 +361,228 @@ header {
     width: 482px;
     height: 232px;
 
+}
+
+/***********What-we-do****************/
+#What-we-do {
+    padding: 130px 124px;
+    width: 1440px;
+}
+
+#What-we-do h3 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #012939;
+}
+
+#What-we-do p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #012939;
+    width: 514px;
+    height: 269px;
+}
+
+#What-we-do .Rmore {
+    display: block;
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0074D9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border: none;
+    margin: 40px 0px 0px 0;
+}
+
+#What-we-do img {
+    width: 584px;
+    height: 547px;
+    /* margin-left: ; */
+}
+
+/************testimonial********************/
+#testimonial {
+    padding: 0 130px;
+    width: 1440px;
+    margin-bottom: 130px;
+}
+
+#testimonial h5 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0074D9;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#testimonial h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+#testimonial .per-details {
+    display: flex;
+}
+
+#testimonial .per-details img {
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#testimonial .per-details h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.20000000298023224px;
+    color: #183B56;
+}
+
+#testimonial p {
+    font-family: Open Sans, Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #5A7184;
+}
+
+#testimonial .per-details p {
+    font-family: Open Sans, Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #5A7184;
+
+
+}
+
+#testimonial .row .col {
+    padding: 40px;
+    margin-right: 30px;
+    border: 1px solid #E5EAF4;
+
+}
+
+/***************join our********************/
+#join-our {
+    width: 1440px;
+    height: 340px;
+    background: url(../images/base.png);
+    padding: 100px 119px;
+}
+
+#join-our h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.20000000298023224px;
+    color: #FFFFFF;
+}
+
+#join-our p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: 486px;
+    height: 64px;
+}
+
+/************footer***************/
+
+#footer {
+    padding: 60px 200px 20px 200px;
+    width: 1440px;
+    font-family: 'Poppins';
+}
+
+#footer .f-Table {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#footer img {
+    width: 163.09px;
+    height: 53.82px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+#footer .footer-logo {
+    width: 312px;
+    height: 223px;
+
+}
+
+#footer .footer-logo p {
+    font-family: Open Sans, Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #5A7184;
+}
+
+#footer .f-data h5 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.23181818425655365px;
+    color: #012939;
+    margin-bottom: 16px;
+}
+
+#footer .f-data p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.20454545319080353px;
+    color: #012939;
+    margin-bottom: 17px;
+}
+
+#footer .tc {
+    display: flex;
+}
+
+#footer .tc img {
+    width: 22px;
+    height: 22px;
+    margin-right: 25px;
+}
+
+#footer .tc p {
+    font-family: "DM Sans", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.20454545319080353px;
+    color: #012939;
+}
+#footer .tc  .TC{
+    margin-right: 40px;
+
+}
+#footer .tc  .rights{
+    margin: 0 192px;
+}
+#footer .tc .facebook{
+    width: 9px;
+    height: 19px;
+}
+#footer .tc .twitter{
+    height: 19px;
 }
