@@ -105,6 +105,7 @@ header {
     line-height: 76px;
     text-align: center;
     color: #fff;
+    margin-top: 151px;
 }
 
 .estimate-data p {
@@ -128,7 +129,7 @@ header {
     padding: 8px 15px;
     border-radius: 41px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 19px;
     border: 1px solid #fff;
 }
 
@@ -258,6 +259,11 @@ header {
     margin: 30px auto 40px auto;
     display: flex;
     justify-content: space-between;
+}
+
+.rovolut .btn-bar .est {
+    color: #2ECC40;
+    border: 1px solid #2ECC40;
 }
 
 .rovolut .btn-bar button {
@@ -472,7 +478,18 @@ header {
     padding: 40px;
     margin-right: 30px;
     border: 1px solid #E5EAF4;
+}
 
+#testimonial .row{
+    position: relative;
+}
+
+#testimonial .row .arrowbtn {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 43%;
+    right: 0px;
 }
 
 /***************join our********************/
@@ -572,17 +589,27 @@ header {
     letter-spacing: -0.20454545319080353px;
     color: #012939;
 }
-#footer .tc  .TC{
+
+#footer .tc .TC {
     margin-right: 40px;
 
 }
-#footer .tc  .rights{
+
+#footer .tc .rights {
     margin: 0 192px;
 }
-#footer .tc .facebook{
+
+#footer .tc .facebook {
     width: 9px;
     height: 19px;
 }
-#footer .tc .twitter{
+
+#footer .tc .twitter {
     height: 19px;
+}
+
+
+/****1441-1650****/
+@media screen and (max-width:1650px) {
+
 }
